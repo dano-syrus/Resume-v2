@@ -24,6 +24,10 @@
 	-webkit-background-clip: text
 }
 
+.bold-text {
+	font-weight: bolder;
+}
+
 html,
 body,
 div,
@@ -927,11 +931,11 @@ ul.icons li a {
 }
 
 ul.icons li a:hover {
-	background-color: rgba(255, 255, 255, 0.075);
+	background-color: var(--base-200);
 }
 
 ul.icons li a:active {
-	background-color: rgba(255, 255, 255, 0.175);
+	background-color: var(--base-200);
 }
 
 /* Table */
